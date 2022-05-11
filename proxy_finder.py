@@ -1,3 +1,7 @@
+"""
+Grabs a bunch of HTTPS proxies from SSLProxies.org, then checks if they are live on a 5 second timeout.
+"""
+
 import requests
 from bs4 import BeautifulSoup
 from random import choice
