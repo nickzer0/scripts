@@ -1,6 +1,9 @@
 # Useful scripts
 Some random scripts I made to make life easier.    
 
+# apache.sh
+Installs and configures Apache with TLS on a blank Ubuntu server
+
 ## Proxy_Finder.py
 Grabs a bunch of HTTPS proxies from SSLProxies.org, then checks if they are live on a 5 second timeout.
 
