@@ -2,7 +2,7 @@
 
 # Configures Apache2 on a black Ubuntu box with TLS
 
-dnsIP=`dig commercialhosting.net @8.8.8.8 +short`
+dnsIP=$(dig $1 @8.8.8.8 +short)
 localIP=`curl -s ifconfig.me`
 
 if [ $dnsIP != $localIP ]
