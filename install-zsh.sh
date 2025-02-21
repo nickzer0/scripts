@@ -2,7 +2,7 @@
 
 sudo apt update
 
-apt install zsh git curl -y
+sudo apt install zsh git curl -y
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
